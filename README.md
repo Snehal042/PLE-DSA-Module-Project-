@@ -1,6 +1,6 @@
 # preplef_project-rat_in_maze
 ## Code
-# import random #
+import random 
 def generate_maze(n):
     maze = [["▓" if random.random() < 0.3 else "◌" for _ in range(n)] for _ in range(n)]
     maze[0][0] = "S"
